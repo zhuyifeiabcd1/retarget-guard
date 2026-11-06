@@ -33,22 +33,23 @@ shallow contact stays a contact and the arm is not lifted away from the body.
 Measured on 320 clips that were never used for tuning, on three body shapes,
 for 960 clip and body pairs. Depth is raw: it is measured on the final skin with
 no allowance for soft tissue, by an independent solid test (winding number on a
-capped torso mesh, then exact point-to-triangle distance).
+capped torso mesh, then exact point-to-triangle distance). The final columns
+cover all 288,000 frames. Copied rates use every 15th frame, and copied maxima
+add the deepest frames flagged by a surface scan.
 
 | Region | Frames beyond 20 mm, copied | Final | Deepest, copied | Final |
 |---|---:|---:|---:|---:|
 | Hand into torso | 15.53 % | 0.00 % | 135.6 mm | 9.3 mm |
-| Forearm into torso | 10.41 % | 0.00 % | 90.3 mm | 5.2 mm |
-| Upper arm into torso | 39.79 % | 0.13 % | 58.5 mm | 27.1 mm |
+| Forearm into torso | 10.41 % | 0.00 % | 90.3 mm | 5.3 mm |
+| Upper arm into torso | 39.79 % | 0.11 % | 58.5 mm | 27.1 mm |
 
 The upper arm is left to soft tissue on purpose, because forcing the armpit apart
-lifts the whole arm. 10.26 % of final frames stay beyond 10 mm there.
+lifts the whole arm. 10.24 % of final frames stay beyond 10 mm there.
 
-The motion keeps its character. Median high-frequency joint energy is
-1.008 times the source (90th percentile 1.079), hands move
-0.85 cm on average, and intended contacts are kept at
-0.953 against 0.976 for the copy. On a very heavy
-body the hands have to move further: 5.11 cm on average.
+The motion keeps its character. Median high-frequency joint energy is 1.008
+times that of the copied motion (90th percentile 1.079), wrists move 0.85 cm on
+average, and intended contacts are kept at 0.953 against 0.976 for the copy. On
+a very heavy body the wrists have to move further: 5.11 cm on average.
 
 | Cost on one pinned CPU core | Mean | P99 |
 |---|---:|---:|
@@ -56,8 +57,10 @@ body the hands have to move further: 5.11 cm on average.
 | Layer 1, 5 frames of lookahead | 1.11 ms | 1.66 ms |
 | Layer 2, 6,890 vertices | 1.18 ms | 1.80 ms |
 
-Measured on an AMD EPYC 7K62 with other jobs on the machine. Lookahead also adds
-its own buffering delay, 167 ms for 5 frames at 30 fps.
+Measured on an AMD EPYC 7K62 with other jobs on the machine. P99 is the largest
+value across the test groups. The two means add up to 2.29 ms per frame, measured
+separately and excluding host skinning and interface overhead. Lookahead also
+adds its own buffering delay, 167 ms for 5 frames at 30 fps.
 
 The video above, deepest vertex in mm:
 
