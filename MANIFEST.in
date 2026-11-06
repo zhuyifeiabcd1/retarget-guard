@@ -1,0 +1,10 @@
+include README.md
+recursive-include src/retarget_guard *.py *.c *.json *.npz *.txt *.md
+recursive-include examples *.py *.md *.txt
+recursive-include tests *.py
+recursive-include tools *.py
+recursive-include verification *.md *.json *.txt
+recursive-include media *.gif *.mp4 *.json
+include LICENSE
+prune .cache
+prune build

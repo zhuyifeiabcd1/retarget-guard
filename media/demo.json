@@ -1,0 +1,34 @@
+{
+ "frames": 306,
+ "fps": 30,
+ "lookahead": 5,
+ "vertices": 13380,
+ "measure": "capped-torso winding number with exact point-triangle distance",
+ "max_mm": {
+  "source": 94.2,
+  "copy": 142.3,
+  "guard": 3.0
+ },
+ "mean_mm": {
+  "source": 17.23,
+  "copy": 42.1,
+  "guard": 0.17
+ },
+ "by_key": {
+  "belly": {
+   "source": 0.0,
+   "copy": 36.0,
+   "guard": 1.7
+  },
+  "crossed": {
+   "source": 15.3,
+   "copy": 72.5,
+   "guard": 0.0
+  },
+  "hips": {
+   "source": 94.2,
+   "copy": 142.3,
+   "guard": 3.0
+  }
+ }
+}

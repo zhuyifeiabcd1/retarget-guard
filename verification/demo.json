@@ -1,0 +1,16 @@
+{
+  "frames": 120,
+  "lookahead": 5,
+  "vertices": 13380,
+  "diagnostic": "Full mesh forearm/hand-to-torso nearest-normal depth; no soft allowance",
+  "max_depth_mm": {
+    "copy": 36.37691656203908,
+    "layer1": 7.303863082837064,
+    "layer1_layer2": 1.7265795031562448
+  },
+  "hold_mean_depth_mm": {
+    "copy": 36.37691656203907,
+    "layer1": 3.5401455550397545,
+    "layer1_layer2": 0.4303750909110975
+  }
+}

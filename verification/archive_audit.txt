@@ -1,0 +1,6 @@
+Source/wheel/sdist text scan: no private machine paths or Chinese code comments.
+Wheel and sdist assets: demo_source.npz and demo_target.npz only (documented CC0 MPFB bodies).
+No SMPL-family vertex data, recorded motion, compiled libraries, bytecode or private caches in either archive.
+Wheel runtime requirement: numpy>=1.23. Pytest is an optional test extra.
+Source archive includes examples, tests, verification reports and offline audit tools.
+All three C files retain the original executable code; changes are comments only.

@@ -1,0 +1,437 @@
+{
+  "compiler": "clang version 18.1.8 (Red Hat 18.1.8-1.module+el8.10.0+703+ec7b33ba)",
+  "flags": [
+    "-std=c99",
+    "-O3",
+    "-fno-math-errno",
+    "-ffp-contract=fast",
+    "-march=x86-64-v3",
+    "-fPIC",
+    "-shared"
+  ],
+  "clips": [
+    {
+      "clip": 555,
+      "character": "tall_heavy",
+      "lookahead": 0,
+      "frames": 300,
+      "max_abs": 0.0,
+      "bit_identical": true,
+      "nonzero_frames": 288
+    },
+    {
+      "clip": 555,
+      "character": "tall_heavy",
+      "lookahead": 5,
+      "frames": 300,
+      "max_abs": 0.0,
+      "bit_identical": true,
+      "nonzero_frames": 292
+    },
+    {
+      "clip": 272,
+      "character": "tall_heavy",
+      "lookahead": 0,
+      "frames": 300,
+      "max_abs": 0.0,
+      "bit_identical": true,
+      "nonzero_frames": 300
+    },
+    {
+      "clip": 272,
+      "character": "tall_heavy",
+      "lookahead": 5,
+      "frames": 300,
+      "max_abs": 0.0,
+      "bit_identical": true,
+      "nonzero_frames": 300
+    },
+    {
+      "clip": 406,
+      "character": "short_heavy",
+      "lookahead": 0,
+      "frames": 300,
+      "max_abs": 0.0,
+      "bit_identical": true,
+      "nonzero_frames": 300
+    },
+    {
+      "clip": 406,
+      "character": "short_heavy",
+      "lookahead": 5,
+      "frames": 300,
+      "max_abs": 0.0,
+      "bit_identical": true,
+      "nonzero_frames": 300
+    }
+  ],
+  "packs": {
+    "mid": {
+      "local_basis": {
+        "shape": [
+          52,
+          3,
+          3
+        ],
+        "same_shape": true,
+        "dtype": "float32",
+        "reference_dtype": "float32",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "local_offset": {
+        "shape": [
+          52,
+          3
+        ],
+        "same_shape": true,
+        "dtype": "float32",
+        "reference_dtype": "float32",
+        "max_abs": 4.172325134277344e-07,
+        "bit_identical": false
+      },
+      "rest_basis": {
+        "shape": [
+          52,
+          3,
+          3
+        ],
+        "same_shape": true,
+        "dtype": "float32",
+        "reference_dtype": "float32",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "rest_joints": {
+        "shape": [
+          52,
+          3
+        ],
+        "same_shape": true,
+        "dtype": "float32",
+        "reference_dtype": "float32",
+        "max_abs": 3.5762786865234375e-07,
+        "bit_identical": false
+      },
+      "parents": {
+        "shape": [
+          52
+        ],
+        "same_shape": true,
+        "dtype": "int64",
+        "reference_dtype": "int64",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "semantic_map": {
+        "shape": [
+          22
+        ],
+        "same_shape": true,
+        "dtype": "int64",
+        "reference_dtype": "int64",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "vertices": {
+        "shape": [
+          4621,
+          3
+        ],
+        "same_shape": true,
+        "dtype": "float32",
+        "reference_dtype": "float32",
+        "max_abs": 1.1920928955078125e-07,
+        "bit_identical": false
+      },
+      "normals": {
+        "shape": [
+          4621,
+          3
+        ],
+        "same_shape": true,
+        "dtype": "float32",
+        "reference_dtype": "float32",
+        "max_abs": 1.1175870895385742e-06,
+        "bit_identical": false
+      },
+      "wi": {
+        "shape": [
+          4621,
+          4
+        ],
+        "same_shape": true,
+        "dtype": "int64",
+        "reference_dtype": "int64",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "weights": {
+        "shape": [
+          4621,
+          4
+        ],
+        "same_shape": true,
+        "dtype": "float32",
+        "reference_dtype": "float32",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "soft": {
+        "shape": [
+          4621
+        ],
+        "same_shape": true,
+        "dtype": "float32",
+        "reference_dtype": "float32",
+        "max_abs": 1.30385160446167e-08,
+        "bit_identical": false
+      },
+      "part": {
+        "shape": [
+          4621
+        ],
+        "same_shape": true,
+        "dtype": "int64",
+        "reference_dtype": "int64",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "query": {
+        "shape": [
+          4621
+        ],
+        "same_shape": true,
+        "dtype": "int32",
+        "reference_dtype": "int32",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "vertex_ids": {
+        "shape": [
+          4621
+        ],
+        "same_shape": true,
+        "dtype": "int64",
+        "reference_dtype": "int64",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "q_indices": {
+        "shape": [
+          800
+        ],
+        "same_shape": true,
+        "dtype": "int64",
+        "reference_dtype": "int64",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "pairs": {
+        "shape": [
+          53,
+          3
+        ],
+        "same_shape": true,
+        "dtype": "int64",
+        "reference_dtype": "int64",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "max_depth": {
+        "shape": [
+          14
+        ],
+        "same_shape": true,
+        "dtype": "float64",
+        "reference_dtype": "float64",
+        "max_abs": 0.0,
+        "bit_identical": true
+      }
+    },
+    "tall_heavy": {
+      "local_basis": {
+        "shape": [
+          52,
+          3,
+          3
+        ],
+        "same_shape": true,
+        "dtype": "float32",
+        "reference_dtype": "float32",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "local_offset": {
+        "shape": [
+          52,
+          3
+        ],
+        "same_shape": true,
+        "dtype": "float32",
+        "reference_dtype": "float32",
+        "max_abs": 5.364418029785156e-07,
+        "bit_identical": false
+      },
+      "rest_basis": {
+        "shape": [
+          52,
+          3,
+          3
+        ],
+        "same_shape": true,
+        "dtype": "float32",
+        "reference_dtype": "float32",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "rest_joints": {
+        "shape": [
+          52,
+          3
+        ],
+        "same_shape": true,
+        "dtype": "float32",
+        "reference_dtype": "float32",
+        "max_abs": 2.980232238769531e-07,
+        "bit_identical": false
+      },
+      "parents": {
+        "shape": [
+          52
+        ],
+        "same_shape": true,
+        "dtype": "int64",
+        "reference_dtype": "int64",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "semantic_map": {
+        "shape": [
+          22
+        ],
+        "same_shape": true,
+        "dtype": "int64",
+        "reference_dtype": "int64",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "vertices": {
+        "shape": [
+          4621,
+          3
+        ],
+        "same_shape": true,
+        "dtype": "float32",
+        "reference_dtype": "float32",
+        "max_abs": 1.1920928955078125e-07,
+        "bit_identical": false
+      },
+      "normals": {
+        "shape": [
+          4621,
+          3
+        ],
+        "same_shape": true,
+        "dtype": "float32",
+        "reference_dtype": "float32",
+        "max_abs": 7.033348083496094e-06,
+        "bit_identical": false
+      },
+      "wi": {
+        "shape": [
+          4621,
+          4
+        ],
+        "same_shape": true,
+        "dtype": "int64",
+        "reference_dtype": "int64",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "weights": {
+        "shape": [
+          4621,
+          4
+        ],
+        "same_shape": true,
+        "dtype": "float32",
+        "reference_dtype": "float32",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "soft": {
+        "shape": [
+          4621
+        ],
+        "same_shape": true,
+        "dtype": "float32",
+        "reference_dtype": "float32",
+        "max_abs": 1.4901161193847656e-08,
+        "bit_identical": false
+      },
+      "part": {
+        "shape": [
+          4621
+        ],
+        "same_shape": true,
+        "dtype": "int64",
+        "reference_dtype": "int64",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "query": {
+        "shape": [
+          4621
+        ],
+        "same_shape": true,
+        "dtype": "int32",
+        "reference_dtype": "int32",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "vertex_ids": {
+        "shape": [
+          4621
+        ],
+        "same_shape": true,
+        "dtype": "int64",
+        "reference_dtype": "int64",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "q_indices": {
+        "shape": [
+          800
+        ],
+        "same_shape": true,
+        "dtype": "int64",
+        "reference_dtype": "int64",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "pairs": {
+        "shape": [
+          53,
+          3
+        ],
+        "same_shape": true,
+        "dtype": "int64",
+        "reference_dtype": "int64",
+        "max_abs": 0.0,
+        "bit_identical": true
+      },
+      "max_depth": {
+        "shape": [
+          14
+        ],
+        "same_shape": true,
+        "dtype": "float64",
+        "reference_dtype": "float64",
+        "max_abs": 0.0,
+        "bit_identical": true
+      }
+    }
+  },
+  "settings_verbatim": true
+}
