@@ -7,6 +7,20 @@ without changing how the motion reads.
 
 ![Three cases on CC0 bodies: the source, the copied motion, and the result with Retarget Guard](media/demo.gif)
 
+**Paper** · [Real-Time Self-Penetration Repair for Skinned Characters with Soft Contact Budgets](https://arxiv.org/abs/2611.09693)
+
+```bibtex
+@misc{zhu2026realtimeselfpenetrationrepairskinned,
+  title={Real-Time Self-Penetration Repair for Skinned Characters with Soft Contact Budgets},
+  author={Yifei Zhu},
+  year={2026},
+  eprint={2611.09693},
+  archivePrefix={arXiv},
+  primaryClass={cs.GR},
+  url={https://arxiv.org/abs/2611.09693},
+}
+```
+
 The red areas are the parts of the hand and forearm inside the torso, and the
 labels give the deepest vertex. [Full video](media/demo.mp4). Regenerate it with
 `tools/render_demo.py`.
@@ -298,7 +312,7 @@ never invokes the protected research build, and saves only numeric difference
 reports. See [verification report](verification/REPORT.md) for measured parity,
 field-by-field pack differences, test output and validation limits.
 
-## Citation and license
+## License
 
 The code is MIT licensed, see [LICENSE](LICENSE). The bundled demo bodies are
-CC0. A technical report is in preparation.
+CC0.
